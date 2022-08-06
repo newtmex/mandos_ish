@@ -8,16 +8,16 @@
         "sc:mandos_ish": {
           "storage": {
             "str:reward": {
-              "0-id": "u64:1",
-              "1-batch_period": "u64:1",
-              "2-profile_rank": "biguint:1,000,000,000,000,000,000",
-              "3-egld_staked": "biguint:1,000,000,000,000,000,000",
-              "4-egld_to_reward": "biguint:1,000,000,000,000,000,000",
-              "5-reward_boost": "biguint:2,000,000,000,000,000,000",
-              "6-reward_gained": "biguint:0",
-              "7-reward_credited": "biguint:0",
-              "8-epochs_locked": "u64:10",
-              "9-epochs_credited": "u64:0",
+              "00-id": "u64:1",
+              "01-batch_period": "u64:1",
+              "02-profile_rank": "biguint:1,000,000,000,000,000,000",
+              "03-egld_staked": "biguint:1,000,000,000,000,000,000",
+              "04-egld_to_reward": "biguint:1,000,000,000,000,000,000",
+              "05-reward_boost": "biguint:2,000,000,000,000,000,000",
+              "06-reward_gained": "biguint:0",
+              "07-reward_credited": "biguint:0",
+              "08-epochs_locked": "u64:10",
+              "09-epochs_credited": "u64:0",
               "10-eol": "u64:12000"
             }
           },
