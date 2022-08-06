@@ -44,7 +44,7 @@ where
     pub reward_credited: BigUint<M>,
     pub epochs_locked: u64,
     pub epochs_credited: u64,
-    pub eol: u64,
+    // pub eol: u64,
 }
 #[elrond_wasm::contract]
 pub trait MandosIsh {
@@ -61,7 +61,7 @@ pub trait MandosIsh {
             reward_credited: BigUint::zero(),
             epochs_locked: 10,
             epochs_credited: 0,
-            eol: 12000,
+            // eol: 12000,
         })
     }
 

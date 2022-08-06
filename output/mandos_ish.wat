@@ -643,9 +643,6 @@
     i64.const 0
     local.get 0
     call 23
-    i64.const 12000
-    local.get 0
-    call 23
     local.get 0
     i32.load
     local.set 1
