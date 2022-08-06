@@ -1,0 +1,15 @@
+[
+    "bigIntSetInt64",
+    "getNumArguments",
+    "signalError",
+    "mBufferAppend",
+    "bigIntPow",
+    "mBufferAppendBytes",
+    "mBufferFromBigIntUnsigned",
+    "mBufferGetLength",
+    "mBufferGetByteSlice",
+    "checkNoPayment",
+    "mBufferSetBytes",
+    "bigIntMul",
+    "mBufferStorageStore"
+]

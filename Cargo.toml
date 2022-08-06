@@ -1,0 +1,20 @@
+[package]
+authors = ["Levi Chimezie <levi@techypharm.com>"]
+edition = "2018"
+name = "mandos_ish"
+publish = false
+version = "0.0.0"
+
+[lib]
+path = "src/mandos_ish.rs"
+
+[dependencies.elrond-wasm]
+version = "0.34.0"
+
+[dev-dependencies.elrond-wasm-debug]
+version = "0.34.0"
+
+[dev-dependencies]
+hex = "0.4"
+num-bigint = "0.4.2"
+num-traits = "0.2"

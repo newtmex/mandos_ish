@@ -1,0 +1,29 @@
+{
+  "name": "test",
+  "steps": [
+    {
+      "step": "setState",
+      "accounts": {
+        "address:mandos_ish_owner": {}
+      },
+      "newAddresses": [
+        {
+          "creatorAddress": "address:mandos_ish_owner",
+          "creatorNonce": "0",
+          "newAddress": "sc:mandos_ish"
+        }
+      ]
+    },
+    {
+      "step": "scDeploy",
+      "txId": "deploy",
+      "tx": {
+        "from": "address:mandos_ish_owner",
+        "contractCode": "file:../output/mandos_ish.wasm",
+        "arguments": [],
+        "gasLimit": "5,000,000",
+        "gasPrice": "0"
+      }
+    }
+  ]
+}

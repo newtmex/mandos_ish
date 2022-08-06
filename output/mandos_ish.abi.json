@@ -1,0 +1,28 @@
+{
+    "buildInfo": {
+        "rustc": {
+            "version": "1.63.0-nightly",
+            "commitHash": "e71440575c930dcecac288b7c3536410d688b351",
+            "commitDate": "2022-06-02",
+            "channel": "Nightly",
+            "short": "rustc 1.63.0-nightly (e71440575 2022-06-02)"
+        },
+        "contractCrate": {
+            "name": "mandos_ish",
+            "version": "0.0.0"
+        },
+        "framework": {
+            "name": "elrond-wasm",
+            "version": "0.34.1"
+        }
+    },
+    "name": "MandoIsh",
+    "constructor": {
+        "inputs": [],
+        "outputs": []
+    },
+    "endpoints": [],
+    "events": [],
+    "hasCallback": false,
+    "types": {}
+}

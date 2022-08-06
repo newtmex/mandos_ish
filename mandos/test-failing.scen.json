@@ -1,0 +1,30 @@
+{
+  "name": "test",
+  "steps": [
+    { "step": "externalSteps", "path": "common.steps.json" },
+    {
+      "step": "checkState",
+      "accounts": {
+        "sc:mandos_ish": {
+          "storage": {
+            "str:reward": {
+              "0-id": "u64:1",
+              "1-batch_period": "u64:1",
+              "2-profile_rank": "biguint:1,000,000,000,000,000,000",
+              "3-egld_staked": "biguint:1,000,000,000,000,000,000",
+              "4-egld_to_reward": "biguint:1,000,000,000,000,000,000",
+              "5-reward_boost": "biguint:2,000,000,000,000,000,000",
+              "6-reward_gained": "biguint:0",
+              "7-reward_credited": "biguint:0",
+              "8-epochs_locked": "u64:10",
+              "9-epochs_credited": "u64:0",
+              "10-eol": "u64:12000"
+            }
+          },
+          "code": "*"
+        },
+        "+": ""
+      }
+    }
+  ]
+}

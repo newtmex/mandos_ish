@@ -1,0 +1,18 @@
+{
+  "name": "test",
+  "steps": [
+    { "step": "externalSteps", "path": "common.steps.json" },
+    {
+      "step": "checkState",
+      "accounts": {
+        "sc:mandos_ish": {
+          "storage": {
+            "str:reward": "u64:1|u64:1|biguint:1,000,000,000,000,000,000|biguint:1,000,000,000,000,000,000|biguint:1,000,000,000,000,000,000|biguint:2,000,000,000,000,000,000|biguint:0|biguint:0|u64:10|u64:0|u64:12000"
+          },
+          "code": "*"
+        },
+        "+": ""
+      }
+    }
+  ]
+}

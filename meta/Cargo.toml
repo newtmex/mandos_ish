@@ -1,0 +1,14 @@
+[package]
+authors = ["you"]
+edition = "2018"
+name = "mandos_ish-meta"
+publish = false
+version = "0.0.0"
+
+[dev-dependencies]
+
+[dependencies.mandos_ish]
+path = ".."
+
+[dependencies.elrond-wasm-debug]
+version = "0.34.0"

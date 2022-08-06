@@ -1,0 +1,31 @@
+[package]
+authors = ["you"]
+edition = "2018"
+name = "mandos_ish-wasm"
+publish = false
+version = "0.0.0"
+
+[lib]
+crate-type = ["cdylib"]
+
+[workspace]
+members = ["."]
+
+[dev-dependencies]
+
+[profile.release]
+codegen-units = 1
+debug = false
+lto = true
+opt-level = "z"
+panic = "abort"
+
+[dependencies.mandos_ish]
+path = ".."
+
+[dependencies.elrond-wasm-node]
+version = "0.34.0"
+
+[dependencies.elrond-wasm-output]
+features = ["wasm-output-mode"]
+version = "0.34.0"
